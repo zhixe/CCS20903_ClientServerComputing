@@ -155,7 +155,7 @@ public class Client  {
 		// default values
 		int portNumber = 1500;
 		String serverAddress = "localhost";
-		String userName = "Amsyar";
+		String userName = "Client-server";
 
 		// depending of the number of arguments provided we fall through
 		switch(args.length) {
