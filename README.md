@@ -1,5 +1,2 @@
 # CCS20903_ClientServerComputing
-There are 4 branches:
-1. Assignment 1b
-2. Assignment 2
-3. Project
+This is assignment 1b for CCS20903 Client-Server Computing.
