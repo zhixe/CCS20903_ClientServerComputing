@@ -1,2 +1,2 @@
 # CCS20903_ClientServerComputing
-This is assignment 1b for CCS20903 Client-Server Computing.
+This is assignment 2 for CCS20903 Client-Server Computing.
