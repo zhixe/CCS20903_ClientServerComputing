@@ -1,5 +1,2 @@
 # CCS20903_ClientServerComputing
-There are 3 branches (exclude master):
-1. Assignment 1b
-2. Assignment 2
-3. Assignment 3
+This is assignment 3 for CCS20903 Client-Server Computing.
