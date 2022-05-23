@@ -5,7 +5,7 @@ import java.rmi.Naming;
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
 
-// This is where bank account and bank service will be invoked to communicate each other with BankView class through the server using encapsulation
+// This is where bank account and bank service will be invoked to communicate each other with BankView class through RMI registry
 public class BankController 
 {
 	private RemoteBank bs;
@@ -14,7 +14,7 @@ public class BankController
 
 	public BankController() throws MalformedURLException, RemoteException, NotBoundException 
 	{
-		// Get remote objects from the server
+		// Find the references of the remote objects
 		bs = (RemoteBank) Naming.lookup("rmi://localhost/bankservice");
 		ba = (RemoteAccount) Naming.lookup("rmi://localhost/bankaccount");
 	}
@@ -45,8 +45,6 @@ public class BankController
 		if (ba.getAmt() < 0.0) // If withdrawn money is more than 0
 		{
 			System.out.println("User Account Error: Not enough money to withdraw!");
-
-			// Note: No log report and receipt will be generated since this is a demo app.
 		}
 	}
 	

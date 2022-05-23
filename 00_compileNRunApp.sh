@@ -1,4 +1,5 @@
-#!/bin/bash ## Make bash or shell script executable in the terminal
+#!/bin/bash 
+# Make bash or shell script executable in the terminal
 client="Client/Client";
 server="Server/Server";
 
